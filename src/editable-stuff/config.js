@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Lauren Miller. I am graduating from Drexel University with a Data Science Master's Degree in late March 2025.",
-  resume: "../editable-stuff/LMiller Resume 2024.pdf",
+  resume: require("../editable-stuff/LMiller Resume 2024.pdf"),
 };
 
 // PROJECTS SECTION
@@ -120,12 +120,12 @@ const experiences = {
   data: [
     {
       role: 'Senior Data Analyst',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: require('../assets/img/drexel-logo.png'),
       date: 'September 2023 – Present',
     },
     {
       role: 'Data Engineering Intern',
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: require('../assets/img/avanade-logo.png'),
       date: 'May 2024 – July 2024',
     },
   ]
