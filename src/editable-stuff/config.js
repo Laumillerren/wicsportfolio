@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Lauren Miller. I am graduating from Drexel University with a Data Science Master's Degree in late March 2025.",
-  resume: "src/editable-stuff/LMiller Resume 2024.pdf",
+  resume: "../editable-stuff/LMiller Resume 2024.pdf",
 };
 
 // PROJECTS SECTION
