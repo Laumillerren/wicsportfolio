@@ -125,7 +125,7 @@ const experiences = {
     },
     {
       role: 'Data Engineering Intern',
-      companylogo: require('../assets/img/avanade-logo.png'),
+      companylogo: require('../assets/img/avanade-logo.jpeg'),
       date: 'May 2024 – July 2024',
     },
   ]
