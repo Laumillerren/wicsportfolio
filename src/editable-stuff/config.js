@@ -39,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/LMiller_photo.jpeg"),
   imageSize: 375,
   message:
-    "My name is Lauren Miller. I am graduating from Drexel University with a Master's Degree in late March 2025.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Lauren Miller. I am graduating from Drexel University with a Data Science Master's Degree in late March 2025.",
+  resume: "https://drive.google.com/file/d/1fsVIshxRcftgztOBl-ZgmBPbzHNMfBA-/view?usp=share_link",
 };
 
 // PROJECTS SECTION
@@ -54,7 +54,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "Laumillerren", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
