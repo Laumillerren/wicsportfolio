@@ -122,12 +122,12 @@ const experiences = {
   data: [
     {
       role: 'Senior Data Analyst',// Here Add Company Name
-      companylogo: require('../assets/img/drexel-logo Medium.png'),
+      companylogo: require('../assets/img/drexel-logo.png'),
       date: 'September 2023 – Present',
     },
     {
       role: 'Data Engineering Intern',
-      companylogo: require('../assets/img/avanade-logo Medium.png'),
+      companylogo: require('../assets/img/avanade-logo.png'),
       date: 'May 2024 – July 2024',
     },
   ]
