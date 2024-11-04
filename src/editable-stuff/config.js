@@ -88,20 +88,22 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 75 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "Azure Certifications", value: 90 },
+    { name: "R", value: 50 },
+    { name: "Databricks", value: 50 },
+    { name: "Data Structures", value: 100 },
+    { name: "Azure", value: 75 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 100 },
     { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Leadership", value: 90 },
+    { name: "Organization", value: 100 },
+    { name: "Attention to Detail", value: 90 },
   ],
 };
 
@@ -110,7 +112,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Data Engineering or Data Analyst opportunities! If you know of any positions available, if you have any questions, or if you just want to chat, please feel free to email me at",
+    "I'm looking for full-time Data Engineering or Data Analyst opportunities! If you know of any positions available, if you have any questions, or if you just want to chat, please feel free to email me at",
   email: "lemilleredu@gmail.com",
 };
 
@@ -120,12 +122,12 @@ const experiences = {
   data: [
     {
       role: 'Senior Data Analyst',// Here Add Company Name
-      companylogo: require('../assets/img/drexel-logo.png'),
+      companylogo: require('../assets/img/drexel-logo Medium.png'),
       date: 'September 2023 – Present',
     },
     {
       role: 'Data Engineering Intern',
-      companylogo: require('../assets/img/avanade-logo.jpeg'),
+      companylogo: require('../assets/img/avanade-logo Medium.png'),
       date: 'May 2024 – July 2024',
     },
   ]
