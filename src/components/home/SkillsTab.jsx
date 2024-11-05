@@ -41,7 +41,6 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import SkillsBar from "./SkillsBar";
-import './SkillsTab.css'; // Optional: import CSS for custom styling
 
 // Inner component: SkillsSection
 function SkillsSection({ skills }) {
