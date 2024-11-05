@@ -17,7 +17,6 @@
 
 import React from "react";
 import Card from "react-bootstrap/Card";
-import './SkillsBar.css'; // Optional: custom CSS for further styling
 
 function SkillsBar({ skill }) {
   return (
