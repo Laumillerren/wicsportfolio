@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4484ce, #1ad7c0, #ff91c1, #9b59b6, #6c5ce7, #b2f5ea",
   firstName: "Lauren",
   middleName: "",
   lastName: "Miller",
@@ -56,7 +56,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "Laumillerren", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["Histology_Classification_Project", "Ecommerce_Analysis","Bookworn_Recommender","Personal_Project_LMiller"],
 };
 
 // Leadership SECTION
@@ -97,13 +97,13 @@ const skills = {
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 100 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Leadership", value: 90 },
+    { name: "Collaboration", value: 100 },
+    { name: "Positivity", value: 100 },
+    { name: "Adaptability", value: 100 },
+    { name: "Problem Solving", value: 100 },
+    { name: "Leadership", value: 100 },
     { name: "Organization", value: 100 },
-    { name: "Attention to Detail", value: 90 },
+    { name: "Attention to Detail", value: 100 },
   ],
 };
 
