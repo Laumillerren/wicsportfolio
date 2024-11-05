@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/wicsportfolio/static/css/main.b1a3edc1.css",
-    "main.js": "/wicsportfolio/static/js/main.8237683f.js",
+    "main.js": "/wicsportfolio/static/js/main.b1f3eff6.js",
     "static/js/453.19c7e6ca.chunk.js": "/wicsportfolio/static/js/453.19c7e6ca.chunk.js",
     "static/media/LMiller_photo.jpeg": "/wicsportfolio/static/media/LMiller_photo.d2a621d354d271913cdb.jpeg",
     "static/media/LMiller Resume 2024.pdf": "/wicsportfolio/static/media/LMiller Resume 2024.9c446eea73b784c7d277.pdf",
     "static/media/avanade-logo.png": "/wicsportfolio/static/media/avanade-logo.7f93eec5dd8c7728c70c.png",
     "index.html": "/wicsportfolio/index.html",
     "main.b1a3edc1.css.map": "/wicsportfolio/static/css/main.b1a3edc1.css.map",
-    "main.8237683f.js.map": "/wicsportfolio/static/js/main.8237683f.js.map",
+    "main.b1f3eff6.js.map": "/wicsportfolio/static/js/main.b1f3eff6.js.map",
     "453.19c7e6ca.chunk.js.map": "/wicsportfolio/static/js/453.19c7e6ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1a3edc1.css",
-    "static/js/main.8237683f.js"
+    "static/js/main.b1f3eff6.js"
   ]
 }
