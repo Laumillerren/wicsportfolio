@@ -91,9 +91,9 @@ const skills = {
     { name: "Python", value: 75 },
     { name: "SQL", value: 75 },
     { name: "R", value: 50 },
-    { name: "Databricks", value: 50 },
-    { name: "Data Structures", value: 100 },
-    { name: "Azure", value: 75 },
+    { name: "Extract/Transform/Load (ETL)", value: 50 },
+    { name: "Data Visualizations (Tableau/PowerBI)", value: 50 },
+    { name: "Data Modeling", value: 100 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 100 },
@@ -104,6 +104,12 @@ const skills = {
     { name: "Leadership", value: 100 },
     { name: "Organization", value: 100 },
     { name: "Attention to Detail", value: 100 },
+  ],
+  certifications: [
+    { name: "Microsoft Azure Fundamentals", value: 100 },
+    { name: "Microsoft Azure Data Fundamentals", value: 100 },
+    { name: "Microsoft Azure AI Fundamentals", value: 100 },
+    { name: "Databricks Lakehouse Fundamentals ", value: 100 },
   ],
 };
 
