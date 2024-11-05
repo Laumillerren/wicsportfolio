@@ -105,14 +105,13 @@ const skills = {
     { name: "Organization", value: 100 },
     { name: "Attention to Detail", value: 100 },
   ],
-  certifications: [
-    { name: "Microsoft Azure Fundamentals", value: 100 },
-    { name: "Microsoft Azure Data Fundamentals", value: 100 },
-    { name: "Microsoft Azure AI Fundamentals", value: 100 },
-    { name: "Databricks Lakehouse Fundamentals ", value: 100 },
-  ],
 };
-
+// certifications: [
+//   { name: "Microsoft Azure Fundamentals", value: 100 },
+//   { name: "Microsoft Azure Data Fundamentals", value: 100 },
+//   { name: "Microsoft Azure AI Fundamentals", value: 100 },
+//   { name: "Databricks Lakehouse Fundamentals ", value: 100 },
+// ],
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,

@@ -7,9 +7,10 @@ import { Jumbotron } from "./migration";
 import { Container } from "react-bootstrap";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
-const Skills = React.forwardRef(({ heading, hardSkills, softSkills, certifications }, ref) => {
+const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
   const skillsTabRef = React.useRef(null);
   const [isScrolled, setIsScrolled] = React.useState(false);
+  //const navbarDimensions = useResizeObserver(navbarMenuRef);
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
@@ -18,10 +19,9 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills, certificatio
     [],
     skillsTabRef
   );
-
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
-      <Container className="p-5">
+      <Container className="p-5 ">
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
@@ -47,15 +47,6 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills, certificatio
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="certifications"
-            title="Certifications"
-          >
-            <Row className="pt-3 px-1">
-              <SkillsTab skills={certifications} isScrolled={isScrolled} />
             </Row>
           </Tab>
         </Tabs>
