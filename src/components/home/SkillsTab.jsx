@@ -40,15 +40,15 @@
 
 import React from "react";
 import Col from "react-bootstrap/Col";
+import SkillsBar from "./SkillsBar";
+import './SkillsTab.css'; // Optional: import CSS for custom styling
 
 // Inner component: SkillsSection
 function SkillsSection({ skills }) {
   return (
     <>
       {skills.map((skill, index) => (
-        <div key={index} className="skill-item">
-          <p className="lead mb-1 mt-2">{skill.name}</p>
-        </div>
+        <SkillsBar key={index} skill={skill.name} />
       ))}
     </>
   );
@@ -57,7 +57,7 @@ function SkillsSection({ skills }) {
 // Main component: SkillsTab
 function SkillsTab({ skills }) {
   return (
-    <>
+    <div className="d-flex flex-wrap">
       <Col xs={12} md={6}>
         <SkillsSection
           skills={skills.slice(0, Math.floor(skills.length / 2))}
@@ -68,7 +68,7 @@ function SkillsTab({ skills }) {
           skills={skills.slice(Math.floor(skills.length / 2), skills.length)}
         />
       </Col>
-    </>
+    </div>
   );
 }
 
