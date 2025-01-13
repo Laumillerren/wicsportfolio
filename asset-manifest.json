@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/wicsportfolio/static/css/main.bba81d22.css",
-    "main.js": "/wicsportfolio/static/js/main.c1abc049.js",
+    "main.css": "/wicsportfolio/static/css/main.b1a3edc1.css",
+    "main.js": "/wicsportfolio/static/js/main.6209535f.js",
     "static/js/453.19c7e6ca.chunk.js": "/wicsportfolio/static/js/453.19c7e6ca.chunk.js",
     "static/media/LMiller_photo.jpeg": "/wicsportfolio/static/media/LMiller_photo.d2a621d354d271913cdb.jpeg",
-    "static/media/LMiller Resume 2024.pdf": "/wicsportfolio/static/media/LMiller Resume 2024.dd70ec56680b90429294.pdf",
+    "static/media/LMiller Resume 2025.pdf": "/wicsportfolio/static/media/LMiller Resume 2025.edb0399092d387308d9c.pdf",
     "static/media/avanade-logo.png": "/wicsportfolio/static/media/avanade-logo.7f93eec5dd8c7728c70c.png",
     "index.html": "/wicsportfolio/index.html",
-    "main.bba81d22.css.map": "/wicsportfolio/static/css/main.bba81d22.css.map",
-    "main.c1abc049.js.map": "/wicsportfolio/static/js/main.c1abc049.js.map",
+    "main.b1a3edc1.css.map": "/wicsportfolio/static/css/main.b1a3edc1.css.map",
+    "main.6209535f.js.map": "/wicsportfolio/static/js/main.6209535f.js.map",
     "453.19c7e6ca.chunk.js.map": "/wicsportfolio/static/js/453.19c7e6ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bba81d22.css",
-    "static/js/main.c1abc049.js"
+    "static/css/main.b1a3edc1.css",
+    "static/js/main.6209535f.js"
   ]
 }
