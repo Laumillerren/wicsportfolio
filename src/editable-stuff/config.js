@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/LMiller_photo.jpeg"),
   imageSize: 375,
   message:
-    "I am a dedicated data science professional pursuing my Master's Degree at Drexel University, graduating in March 2025. I'm passionate about leveraging data-driven insights to solve complex challenges",
+    "I am a dedicated data science professional pursuing my Master's Degree at Drexel University, graduating in March 2025.",
   resume: require("../editable-stuff/LMiller Resume 2025.pdf"),
 };
 
