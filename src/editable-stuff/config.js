@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/LMiller_photo.jpeg"),
   imageSize: 375,
   message:
-    "My name is Lauren Miller. I am graduating from Drexel University with a Data Science Master's Degree in late March 2025.",
+    "I am a dedicated data science professional pursuing my Master's Degree at Drexel University, graduating in March 2025. I'm passionate about leveraging data-driven insights to solve complex challenges",
   resume: require("../editable-stuff/LMiller Resume 2024.pdf"),
 };
 
@@ -91,9 +91,13 @@ const skills = {
     { name: "Python", value: 75 },
     { name: "SQL", value: 75 },
     { name: "R", value: 50 },
-    { name: "Extract/Transform/Load (ETL)", value: 50 },
+    { name: "Extract, Transform, Load (ETL)", value: 50 },
+    { name: "Snowflake", value: 50 },
+    { name: "Databricks", value: 50 },
     { name: "Data Visualizations (Tableau/PowerBI)", value: 50 },
-    { name: "Data Modeling", value: 100 },
+    { name: "Jupyter Notebooks & Google Colab", value: 100 },
+    { name: "Microsoft Azure", value: 50 },
+    { name: "Git & Github", value: 50 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 100 },
