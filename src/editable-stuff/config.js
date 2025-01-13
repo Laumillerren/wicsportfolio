@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "I am a dedicated data science professional pursuing my Master's Degree at Drexel University, graduating in March 2025. I'm passionate about leveraging data-driven insights to solve complex challenges",
-  resume: require("../editable-stuff/LMiller Resume 2024.pdf"),
+  resume: require("../editable-stuff/LMiller Resume 2025.pdf"),
 };
 
 // PROJECTS SECTION
@@ -96,7 +96,6 @@ const skills = {
     { name: "Databricks", value: 50 },
     { name: "Data Visualizations (Tableau/PowerBI)", value: 50 },
     { name: "Jupyter Notebooks & Google Colab", value: 100 },
-    { name: "Microsoft Azure", value: 50 },
     { name: "Git & Github", value: 50 },
   ],
   softSkills: [
