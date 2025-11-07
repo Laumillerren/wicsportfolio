@@ -130,7 +130,7 @@ const experiences = {
   data: [
     {
       role: 'Data Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/aramarkse_logo.png'),
+      companylogo: require('../assets/img/aramarkse-logo.jpeg'),
       date: 'March 2025 – Present',
     },
     {
