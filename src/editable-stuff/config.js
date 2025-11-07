@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/LMiller_photo.jpeg"),
   imageSize: 375,
   message:
-    "I am a dedicated data science professional pursuing my Master's Degree at Drexel University, graduating in March 2025.",
+    "I am a data professional working as a Data Engineer at Aramark Sports + Entertainment",
   resume: require("../editable-stuff/LMiller Resume 2025.pdf"),
 };
 
@@ -120,7 +120,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm looking for full-time Data Engineering or Data Analyst opportunities! If you know of any positions available, if you have any questions, or if you just want to chat, please feel free to email me at",
+    "Feel free to to email me at",
   email: "lemilleredu@gmail.com",
 };
 
@@ -129,9 +129,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Data Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/aramarkse_logo.png'),
+      date: 'March 2025 – Present',
+    },
+    {
       role: 'Senior Data Analyst',// Here Add Company Name
       companylogo: require('../assets/img/drexel-logo.png'),
-      date: 'September 2023 – Present',
+      date: 'September 2023 – March 2025',
     },
     {
       role: 'Data Engineering Intern',
