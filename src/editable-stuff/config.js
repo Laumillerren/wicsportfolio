@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "I am a data professional working as a Data Engineer at Aramark Sports + Entertainment",
-  resume: require("../editable-stuff/LMiller Resume 2025.pdf"),
+  resume: require("../editable-stuff/LMiller Resume.pdf"),
 };
 
 // PROJECTS SECTION
